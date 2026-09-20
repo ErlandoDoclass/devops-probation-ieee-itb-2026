@@ -1,7 +1,7 @@
 // src/api.js
 import axios from "axios";
 
-const BASE_URL = "https://indore-metro.onrender.com/api";
+const BASE_URL = import.meta.env.VITE_API_URL;
 
 export async function getStations() {
   const res = await axios.get(`${BASE_URL}/stations`);

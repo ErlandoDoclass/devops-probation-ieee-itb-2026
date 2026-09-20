@@ -1,0 +1,17 @@
+# Environment files
+.env
+**/.env
+.env.*
+**/.env.*
+
+# Allow template files
+!.env.example
+!**/.env.example
+
+# Dependencies
+node_modules
+**/node_modules
+
+# Build output
+dist
+**/dist
